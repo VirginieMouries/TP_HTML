@@ -61,13 +61,24 @@ body
 
 section h2
 {
-    font-family: Dayrom, serif;
-    color: #6140A4 ;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color:  #E8E8F0;
+    color: black ;
     font-weight: bold;
     font-size: 1.5em;
 }
 
-/* Header */
+section h3
+
+{
+     background-color:  #EFEFEF;
+ 
+}
+
+/********************************************* 
+    Header 
+
+**********************************************/
 
 
 header
@@ -80,7 +91,7 @@ header
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     
 }
@@ -137,10 +148,13 @@ header h2, footer h2
 }
 
 
+/******************************** 
+    Navigation 
+*********************************/
 
 nav
 {
-    position: absolute;
+    /* position: absolute; */
     font-size: 0.8em;
     top: 0px;
     right: 0px;
@@ -148,24 +162,49 @@ nav
     margin-bottom: 10px;
 }
 
-/* Navigation */
-
-nav ul
+fieldset
 {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
+    border: none;    
+}
 
+.radioInput{
+    display: none;
+}
+
+input
+{
+    margin: 3px 3px 0px 5px;
+    -webkit-appearance: radio;
+    box-sizing: border-box;
+}
+
+input i 
+{
+    background-color: initial;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+
+label
+{
+    font-size: 1.2em;
+    cursor: default;
+}
+
+.radioInput:checked + .radioLabel {
+    border-top: 3px solid #3491B2;
+}
+
+.radioLabel {
+    padding: 1rem 2rem;
+    margin-right: 5px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    color: grey;
 }
 
 
-nav li
-{
-    /* background: blue;
-    color: #fff; */
-    margin-right: 15px;    
-    /* opacity: 0.2; */   
-}
 
 /* Corps */
 
@@ -173,14 +212,14 @@ nav li
 section
 {
     display: flex;    
-    padding-top: 120px;    
+    padding-top: 160px;    
     margin-bottom: 20px;
     flex-direction: column;    
 }
 
 section li
 {
-    font-size: 0.8em;
+    font-size: 1em;
     list-style-type: disc;
 }
 
@@ -216,7 +255,7 @@ em
 p
 {
     font-family: Arial, serif;
-    font-size: 0.8em;    ;
+    font-size: 1em;    ;
 }
 
 
@@ -229,7 +268,7 @@ footer
     left: 0;
     
     width: 100%;
-    background: grey; /* url('images/marbthin.gif') repeat-x top;*/
+    background: #E8E8F0; /* url('images/marbthin.gif') repeat-x top;*/
     display: flex;    
     justify-content: space-between;
     flex-direction: row;
@@ -261,5 +300,5 @@ footer
 {
     align-items: right;
     /* debugg border: green solid; */
-    padding-right: 10px;
+    padding-left: 20px;
 }
