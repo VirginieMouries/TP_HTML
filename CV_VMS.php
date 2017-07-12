@@ -14,22 +14,22 @@
 
 				<article>
 					<h2>Savoir être</h2>
-					<ul>
-						<li>esprit d'équipe</li>
-						<li>expérience de travail en équipe</li>
-						<li>créative</li>
-						<li>persévérante</li>
-						<li>respect de l’autre</li>						
-						<li>échelle de valeurs</li>
-						<li>empathie</li>
-						<li>valorisation de l'effort</li>
-						<li>fixer des objectifs et les évaluer</li>						
-					</ul>					
+					<div class="conteneurSavoirEtre">					
+						<div class="savoirEtre se1">Esprit d'équipe</div>
+						<div class="savoirEtre se2">Expérience de travail en équipe </div>
+						<div class="savoirEtre se3">Créative</div>
+						<div class="savoirEtre se4">Persévérante </div>
+						<div class="savoirEtre se5">Respect de l’autre</div>
+						<div class="savoirEtre se6">Echelle de valeurs</div>
+						<div class="savoirEtre se7">Empathie</div>
+						<div class="savoirEtre se8">Valorisation de l'effort</div>
+						<div class="savoirEtre se9">Fixer des objectifs et les évaluer</div>
+					</div> <!-- conteneurSavoirEtre --> 
 				</article>							
 
 				<article>
 					<h2>Savoir faire</h2>
-					<ul>
+					<div class="conteneurSavoirFaire">
 						<li>Analyse détaillée</li>
 						<li>Réalisation et tests d’unités de traitements</li>
 						<li>Mise en place de bases de données partagées</li>
@@ -40,7 +40,7 @@
 						<li>Conception et réalisation d’une application des avoirs d’un client </li>						
 						<li>Maintenance: Correction et amélioration des fonctionnalités existantes</li>						
 						<li>Comptabilité</li>
-					</ul>
+					</div> <!-- conteneurSavoirFaire -->
 
 				</article>
 				

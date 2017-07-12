@@ -47,11 +47,10 @@ Par Virginie Mouriès
     font-style: normal;
 }
 
-/* Appliquer une image de fond à la page */ 
+
 body
 {
-	/*background-image: url('Images/fond.jpg') ;
-    background-repeat: repeat;*/
+	
     font-family: 'Trebuchet MS', Arial, sans-serif;
     /* color: #181818; */
     background-attachment: fixed;
@@ -193,7 +192,7 @@ label
 }
 
 .radioInput:checked + .radioLabel {
-    border-top: 3px solid #3491B2;
+    border-top: 3px solid #6495ED; /*#3491B2;*/
 }
 
 .radioLabel {
@@ -247,8 +246,9 @@ aside
 
 em
 {
-    color: blue;
-    font-weight: normal;
+    color: #6495ED; /* blue;*/
+
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -256,6 +256,70 @@ p
 {
     font-family: Arial, serif;
     font-size: 1em;    ;
+}
+
+/*************************************************
+        Page accueil
+**************************************************/
+
+.conteneurSavoirEtre{
+    position:relative;
+    height: 180px;
+}
+
+.savoirEtre{
+    position: absolute;
+    display: inline-block;
+    color:  #6495ED ;/*#1E90FF;/* #03BCD1; */
+    font-weight: bold;
+    background-color: #E8E8F0;    
+    border-radius: 25px;
+    box-shadow: 4px 4px 0px grey;
+    padding: 10px;
+}
+
+.se1{
+    top: 15px;
+    left:10px;    
+}
+
+.se2{    
+    top: 15px;
+    left: 160px;
+}
+
+.se3{
+    top: 15px;
+    left: 440px;
+  
+}
+.se4{
+    top: 120px;
+    left: 400px;
+}
+.se5{
+    top: 65px;
+    left: 180px;
+}
+.se6{
+    top: 65px;
+    left: 10px;
+}
+.se7{
+    top: 120px;
+    left: 10px;
+}
+.se8{
+    top: 65px;
+    left: 350px;
+}
+.se9{
+    top: 120px;
+    left: 120px;
+}
+
+.conteneurSavoirFaire{
+    display: flex;
 }
 
 
