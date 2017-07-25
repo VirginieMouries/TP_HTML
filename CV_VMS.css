@@ -61,7 +61,8 @@ body
 section h2
 {
     font-family: 'Trebuchet MS', Arial, sans-serif;
-    background-color:  #E8E8F0;
+    background-color:  LightCyan; /*  #E8E8F0; */
+    width: 600px;
     color: black ;
     font-weight: bold;
     font-size: 1.5em;
@@ -69,7 +70,8 @@ section h2
 }
 
 h2::before{
-    content: '\2728';
+     /* content: '\2728'; */
+     content: '\1F4A6';
     margin-right: 5px;
 
 }
@@ -93,7 +95,7 @@ header
     position: fixed;
     top : 0;
     left : 0;
-    background-color: #E8E8F0; /* url('images/marbthin.gif') repeat-x bottom; */
+    background-color: LightCyan ; /*LightBlue; /*#E8E8F0; /* url('images/marbthin.gif') repeat-x bottom; */
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -253,7 +255,7 @@ aside
 
 em
 {
-    color: #6495ED; /* blue;*/
+    color: #0099FF; /*#6495ED; /* blue;*/
 
     font-weight: bold;
     font-style: normal;
@@ -271,66 +273,203 @@ p
 
 .conteneurSavoirEtre{
     position:relative;
-    height: 180px;
+    height: 300px;
 }
 
 .savoirEtre{
-    position: absolute;
-    display: inline-block;
-    color:  #6495ED ;/*#1E90FF;/* #03BCD1; */
+    position: relative;
+    display: inline-block;    
+    text-align: center;
     font-weight: bold;
     background-color: #E8E8F0;    
-    border-radius: 25px;
-    box-shadow: 4px 4px 0px grey;
+    border-radius: 50%;    
     padding: 10px;
 }
 
-.se1{
-    top: 15px;
-    left:10px;    
+.savoirEtre li{
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-.se2{    
+.se1{ /* Esprit d'équipe */
     top: 15px;
-    left: 160px;
+    /* left:10px */;
+    height: 80px;
+    width: 80px; 
+    background-color: tomato;
+    
 }
 
-.se3{
-    top: 15px;
-    left: 440px;
+.se2{  /* Expérience de travail en équipe */      
+    height: 115px;
+    left:-15px;
+    width: 115px; 
+    background-color: Highlight;   
+}
+
+.se3{ /* creative */    
+    
+    left: -25px;
+    height: 65px;
+    width: 65px; 
+    background-color: LightGoldenRodYellow;
   
 }
-.se4{
+.se4{ /* Persévérante */
     top: 120px;
-    left: 400px;
+    left: -300px; 
+    height: 100px;
+    width: 100px; 
+    background-color: Aquamarine;
 }
-.se5{
+
+.se5{ /* Respect de l’autre */
     top: 65px;
     left: 180px;
+    height: 65px;
+    width: 65px; 
+    background-color: LightGoldenRodYellow;
+    line-height:15px; 
 }
-.se6{
-    top: 65px;
-    left: 10px;
+
+.se6{ /* Echelle de valeurs */ 
+    top:50px;
+    left: -230px;   
+    height: 85px;
+    width: 85px; 
 }
-.se7{
+
+.se7{ /* Empathie */
     top: 120px;
     left: 10px;
+    height: 65px;
+    width: 65px; 
 }
-.se8{
+
+.se8{ /* Valorisation de l'effort */
     top: 65px;
     left: 350px;
+    height: 65px;
+    width: 65px; 
 }
-.se9{
+
+.se9{ /* Fixer des objectifs et les évaluer */
     top: 120px;
     left: 120px;
+    height: 65px;
+    width: 65px; 
 }
 
 .conteneurSavoirFaire{
-    display: flex;
+    display: grid;
+}
+
+/*************************************************
+        Page compétences
+**************************************************/
+
+.conteneur_competences{
+    width: 500px;
+    height:270px;
+    margin-top: 130px;
+    margin-left: 400px;
+    /* margin: 100px; */
+    position: relative;
+    perspective: 1200px;
+}
+
+@keyframes deplacement{
+    0%{
+        transform: rotateY(0deg) rotateX(10deg);
+        top:0;
+        left: 0;    
+    }
+   
+    100%{
+        transform: rotateY(360deg) rotateX(10deg);      
+        top:0;
+        left: 0;
+    }
+}
+
+.carousel_competences{  
+    position: absolute;
+    /* attention tout dans cet element sera en 3D */
+    transform-style: preserve-3d;
+    animation: deplacement 10s infinite linear;
+    width: 150px;
+    height: 150px;
 }
 
 
-/* footer */
+
+.child{
+    border-radius: 20%;
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;  
+    border: 2px solid black;        
+}
+
+#html5{
+    background:url("images/HTML5_Logo.png") 50% 50% no-repeat;
+    background-size: 90%;
+    transform: rotateY(0) translateZ(300px);
+}
+
+#css3{
+    background:url("images/CSS3_Logo.png") 50% 50% no-repeat;
+    background-size: 65%;
+    transform: rotateY(40deg) translateZ(300px);
+}
+
+#js{
+    background:url("images/JS_Logo.png") 50% 50% no-repeat;
+    background-size: 65%;
+    transform: rotateY(80deg) translateZ(300px);
+}
+
+#sql{
+    background:url("images/SQL_Logo.jpg") 50% 50% no-repeat;
+    background-size: 90%;
+    transform: rotateY(120deg) translateZ(300px);
+}
+
+#php{
+    background:url("images/PHP_Logo.png") 50% 50% no-repeat;
+    background-size: 92%;
+    transform: rotateY(160deg) translateZ(300px);
+}
+
+#java{
+    background:url("images/Java_Logo.png") 50% 50% no-repeat;
+    background-size: 50%;
+    transform: rotateY(200deg) translateZ(300px);
+}
+
+#git{
+    background:url("images/Git_Logo.png") 50% 50% no-repeat;
+    background-size: 105%;
+    transform: rotateY(240deg) translateZ(300px);
+}
+
+#child8{
+    background-color: #F0E68C;
+    transform: rotateY(280deg) translateZ(300px);
+}
+
+#child9{
+    background-color: limegreen;
+    transform: rotateY(320deg) translateZ(300px);
+}
+
+/*************************************************
+        Footer
+**************************************************/
 
 footer
 {

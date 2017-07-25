@@ -15,15 +15,21 @@
 		<article id="CompetencesTechniques">
 			<h2> Competences Techniques </h2>
 			<h3> Langages</h3>
-				<ul>
-	               	<li>HTM5</li>
-	               	<li>CSS3</li> 
-	               	<li>SQL</li> 
-	               	<li>Javascript</li>
-	               	<li>PhP</li>
-	               	<li>Java</li>
-	               	<li>Powerbuilder</li>
-             	</ul>
+
+			<div class="conteneur_competences">
+				<div class="carousel_competences">
+					<div class="child" id="html5"></div>
+					<div class="child" id="css3"></div>
+					<div class="child" id="js"></div>
+					<div class="child" id="sql"></div>					
+					<div class="child" id="php"></div>
+					<div class="child" id="java"></div>
+					<div class="child" id="git"></div>
+					<div class="child" id="child8"></div>
+					<div class="child" id="child9"></div>
+				</div>
+			</div>
+			
             <h3>Base de Données </h3>
             <ul>
             	<li>MySQL</li>

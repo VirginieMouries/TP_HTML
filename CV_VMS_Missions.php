@@ -22,7 +22,7 @@
 					<li>Réalisation de nouvelles fonctionnalités </li>					
 					<li>Correction et amélioration des fonctionnalités existantes </li>
 				</ul>
-				<h2>Missions réalisée avec la société InTech <a href="http://www.intech.lu/"><img src="images/intech_post_logo.png" alt="Socièté InTech"/></a>  </h2>
+				<h2>Missions réalisée avec la société InTech</h2> <a href="http://www.intech.lu/"><img src="images/intech_post_logo.png" alt="Socièté InTech"/></a> 
 				<h3>Projet PAMT (Private Asset Management Tool)</h3>
 				<p>
 					BANQUE PRIVEE 	Banque<br>

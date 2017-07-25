@@ -15,15 +15,35 @@
 				<article>
 					<h2>Savoir être</h2>
 					<div class="conteneurSavoirEtre">					
-						<div class="savoirEtre se1">Esprit d'équipe</div>
-						<div class="savoirEtre se2">Expérience de travail en équipe </div>
-						<div class="savoirEtre se3">Créative</div>
-						<div class="savoirEtre se4">Persévérante </div>
-						<div class="savoirEtre se5">Respect de l’autre</div>
-						<div class="savoirEtre se6">Echelle de valeurs</div>
-						<div class="savoirEtre se7">Empathie</div>
-						<div class="savoirEtre se8">Valorisation de l'effort</div>
-						<div class="savoirEtre se9">Fixer des objectifs et les évaluer</div>
+						<ul>
+							<div class="savoirEtre se1">
+								<li> Esprit d'équipe </li>
+							</div>
+							<div class="savoirEtre se2">
+								<li> Expérience de travail en équipe </li>
+							</div>
+							<div class="savoirEtre se3">
+								<li>Créative</li>
+							</div>
+							<div class="savoirEtre se4">
+								<li> Persévérante </li>
+							</div>
+							<div class="savoirEtre se5">
+								<li> Respect de l’autre</li>
+							</div>
+							<div class="savoirEtre se6">
+								<li>Echelle de valeurs</li>
+							</div>
+							<div class="savoirEtre se7">
+								<li>Empathie</li>
+							</div>
+							<div class="savoirEtre se8">
+								<li>Valorisation de l'effort</li>
+							</div>
+							<div class="savoirEtre se9">
+								<li>Fixer des objectifs et les évaluer</li>
+							</div>
+						</ul>	
 					</div> <!-- conteneurSavoirEtre --> 
 				</article>							
 
