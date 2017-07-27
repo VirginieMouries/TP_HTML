@@ -95,7 +95,7 @@ header
     position: fixed;
     top : 0;
     left : 0;
-    background-color: LightCyan ; /*LightBlue; /*#E8E8F0; /* url('images/marbthin.gif') repeat-x bottom; */
+    background-color: LightCyan ; /*LightBlue; /*#E8E8F0; /* url('Images/marbthin.gif') repeat-x bottom; */
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -278,7 +278,7 @@ p
 
 .savoirEtre{
     position: relative;
-    display: inline-block;    
+    /* display: inline-block;    */
     text-align: center;
     font-weight: bold;
     background-color: #E8E8F0;    
@@ -302,43 +302,45 @@ p
     
 }
 
-.se2{  /* Expérience de travail en équipe */      
-    height: 115px;
-    left:-15px;
-    width: 115px; 
-    background-color: Highlight;   
+.se2{ /* Respect de l’autre */       
+    top: -90px;
+    left: 230px;
+    height:90px;    
+    width:90px; 
+    background-color: #FBB780;   
 }
 
 .se3{ /* creative */    
-    
-    left: -25px;
+    top:-100px;
+    left: 20px; 
     height: 65px;
     width: 65px; 
     background-color: LightGoldenRodYellow;
   
 }
 .se4{ /* Persévérante */
-    top: 120px;
-    left: -300px; 
+    top: -170px;
+    left: 100px; 
     height: 100px;
     width: 100px; 
     background-color: Aquamarine;
 }
 
-.se5{ /* Respect de l’autre */
-    top: 65px;
-    left: 180px;
-    height: 65px;
-    width: 65px; 
-    background-color: LightGoldenRodYellow;
+.se5{ /* Expérience de travail en équipe */
+    top: -400px;
+    left: 90px;
+    height: 115px;
+    width: 115px; 
+    background-color: Highlight;
     line-height:15px; 
 }
 
 .se6{ /* Echelle de valeurs */ 
     top:50px;
-    left: -230px;   
+    left: -50px;   
     height: 85px;
     width: 85px; 
+    background-color: RosyBrown;
 }
 
 .se7{ /* Empathie */
@@ -346,20 +348,23 @@ p
     left: 10px;
     height: 65px;
     width: 65px; 
+    background-color: RosyBrown;
 }
 
 .se8{ /* Valorisation de l'effort */
-    top: 65px;
-    left: 350px;
-    height: 65px;
-    width: 65px; 
+    top: 120px;
+    left: -400px;
+    height: 80px;
+    width: 80px; 
+    background-color: RosyBrown;
 }
 
 .se9{ /* Fixer des objectifs et les évaluer */
-    top: 120px;
-    left: 120px;
-    height: 65px;
-    width: 65px; 
+    top: 0px;
+    left: 160px;
+    height: 115px;
+    width: 115px; 
+    background-color:Thistle;
 }
 
 .conteneurSavoirFaire{
@@ -416,43 +421,43 @@ p
 }
 
 #html5{
-    background:url("images/HTML5_Logo.png") 50% 50% no-repeat;
+    background:url("Images/HTML5_Logo.png") 50% 50% no-repeat;
     background-size: 90%;
     transform: rotateY(0) translateZ(300px);
 }
 
 #css3{
-    background:url("images/CSS3_Logo.png") 50% 50% no-repeat;
+    background:url("Images/CSS3_Logo.png") 50% 50% no-repeat;
     background-size: 65%;
     transform: rotateY(40deg) translateZ(300px);
 }
 
 #js{
-    background:url("images/JS_Logo.png") 50% 50% no-repeat;
+    background:url("Images/JS_Logo.png") 50% 50% no-repeat;
     background-size: 65%;
     transform: rotateY(80deg) translateZ(300px);
 }
 
 #sql{
-    background:url("images/SQL_Logo.jpg") 50% 50% no-repeat;
+    background:url("Images/SQL_Logo.jpg") 50% 50% no-repeat;
     background-size: 90%;
     transform: rotateY(120deg) translateZ(300px);
 }
 
 #php{
-    background:url("images/PHP_Logo.png") 50% 50% no-repeat;
+    background:url("Images/PHP_Logo.png") 50% 50% no-repeat;
     background-size: 92%;
     transform: rotateY(160deg) translateZ(300px);
 }
 
 #java{
-    background:url("images/Java_Logo.png") 50% 50% no-repeat;
+    background:url("Images/Java_Logo.png") 50% 50% no-repeat;
     background-size: 50%;
     transform: rotateY(200deg) translateZ(300px);
 }
 
 #git{
-    background:url("images/Git_Logo.png") 50% 50% no-repeat;
+    background:url("Images/Git_Logo.png") 50% 50% no-repeat;
     background-size: 105%;
     transform: rotateY(240deg) translateZ(300px);
 }
@@ -478,7 +483,7 @@ footer
     left: 0;
     
     width: 100%;
-    background: #E8E8F0; /* url('images/marbthin.gif') repeat-x top;*/
+    background: #E8E8F0; /* url('Images/marbthin.gif') repeat-x top;*/
     display: flex;    
     justify-content: space-between;
     flex-direction: row;
@@ -490,7 +495,7 @@ footer
 /*
 #pied_page
 {
-    background: url('images/marbthin.gif') repeat-x top;
+    background: url('Images/marbthin.gif') repeat-x top;
     display: flex;
     flex-direction: row;
     align-items: stretch;

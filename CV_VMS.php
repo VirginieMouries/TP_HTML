@@ -20,7 +20,7 @@
 								<li> Esprit d'équipe </li>
 							</div>
 							<div class="savoirEtre se2">
-								<li> Expérience de travail en équipe </li>
+								<li> Respect de l’autre</li>
 							</div>
 							<div class="savoirEtre se3">
 								<li>Créative</li>
@@ -29,7 +29,7 @@
 								<li> Persévérante </li>
 							</div>
 							<div class="savoirEtre se5">
-								<li> Respect de l’autre</li>
+								<li> Expérience de travail en équipe </li>						
 							</div>
 							<div class="savoirEtre se6">
 								<li>Echelle de valeurs</li>
