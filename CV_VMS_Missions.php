@@ -12,6 +12,7 @@
 	<section>
 		<article>
 				<h2>Mission réalisée avec la société Conceptware  </h2>
+				
 				<h3>Projet Plexus - Novembre 2007 à avril 2008  </h3>
 				<p>
 					REPORTING FINANCIER 	Banque <br>

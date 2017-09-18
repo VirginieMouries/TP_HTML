@@ -49,29 +49,39 @@
 
 				<article>
 					<h2>Savoir faire</h2>
-					<div class="conteneurSavoirFaire">
-						<li>Analyse détaillée</li>
-						<li>Réalisation et tests d’unités de traitements</li>
-						<li>Mise en place de bases de données partagées</li>
-						<li>Assistance aux utilisateurs</li>
-						<li>Conduite de réunion</li>
-						<li>Gestion d’équipes</li>
-						<li>Conception et réalisation d’un système de gestion des commandes </li>
-						<li>Conception et réalisation d’une application des avoirs d’un client </li>						
-						<li>Maintenance: Correction et amélioration des fonctionnalités existantes</li>						
-						<li>Comptabilité</li>
-					</div> <!-- conteneurSavoirFaire -->
-
-				</article>
-				
-				<aside>			
-					<h2> Quels sites pour se former ? </h2>
-					<ul>
-		               	<li><a href="https://openclassrooms.com">OpenClassrooms</a></li>
-		               	<li><a href="#">Developpez</a></li> 
-		               	<li><a href="http://www.alsacreations.com">AlsaCréations</a></li>
-	             	</ul>
-	            </aside> 	
+					<table class="table table-bordered table-striped table-condensed">
+						<tr>
+            				<td>Analyse détaillée </td>
+            			</tr>
+						<tr>
+            				<td>Réalisation et tests d’unités de traitements </td>
+            			</tr>
+            			<tr>
+            				<td>Mise en place de bases de données partagées</td>
+            			</tr>
+            			<tr>
+            				<td>Assistance aux utilisateurs</td>
+            			</tr>
+            			<tr>
+            				<td>Conduite de réunion</td>
+            			</tr>
+            			<tr>
+            				<td>Gestion d’équipes</td>
+            			</tr>
+            			<tr>
+            				<td>Conception et réalisation d’un système de gestion des commandes</td>
+            			</tr>
+            			<tr>
+            				<td>Conception et réalisation d’une application des avoirs d’un client</td>
+            			</tr>
+            			<tr>
+            				<td>Maintenance: Correction et amélioration des fonctionnalités existantes</td>
+            			</tr>
+            			<tr>
+            				<td>Comptabilité</td>
+            			</tr>
+            		</table>
+				</article>			
 					    
 		</section>			
 

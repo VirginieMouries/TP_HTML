@@ -25,7 +25,7 @@
 					<div class="child" id="php"></div>
 					<div class="child" id="java"></div>
 					<div class="child" id="git"></div>
-					<div class="child" id="child8"></div>
+					<div class="child" id="symfony"></div>
 					<div class="child" id="child9"></div>
 				</div>
 			</div>
